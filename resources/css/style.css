@@ -5,8 +5,8 @@
     background-color:black;
     opacity:0.9;
     box-sizing: border-box;
-    margin: 0;
     border: 1px solid red;
+    margin: 0;
     
     
 }
@@ -62,9 +62,13 @@ nav li{
 .teas {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: center; /* horizontal positioning for both lines */
+    align-content: center;
 }
 
+.teas figure {
+    margin: 15px;
+}
 .teas figure img {
     width: 300px;
     height: 200px;
