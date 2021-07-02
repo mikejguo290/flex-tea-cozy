@@ -3,15 +3,14 @@
     text-align: center;
     color:seashell;
     background-color:black;
-    opacity:0.9;
     box-sizing: border-box;
     border: 1px solid red;
     margin: 0;
+    opacity:0.9;
     
     
 }
 body {
-    
     font-size: 22px;
 }
 
@@ -74,4 +73,48 @@ nav li{
     width: 300px;
     height: 200px;
     margin-bottom: 10px;
+}
+
+.locations {
+    width: 1200px;
+    height: 500px;
+    margin: auto;
+
+    background-image:url('../images/img-locations-background.jpg');
+    background-size: cover;
+
+    display: flex;
+    flex-wrap: wrap;
+    /* since height of section with heading isn't fixed, 
+    this squashes the two sections together in the middle! unexpected solution. */
+    align-content: center;
+}
+
+.locations > section {
+    /* contains heading - locations */
+    width: 1200px;
+    background-color: transparent;
+}
+
+.locations h2 {
+    background-color: transparent;
+}
+
+.locations .addresses {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.address {
+    /* need to flex to position the headings easily. flex along cross-axis. */
+    display: flex; 
+    flex-direction:column;
+    justify-content: space-around;
+    width: 300px;
+    height: 300px;
+    opacity: 1;
+
+    margin: 15px 20px;
 }
