@@ -52,6 +52,7 @@ nav li{
 }
 
 .products {
+    /* second section containing teas. */
     width: 1000px;
     margin: auto;
     
@@ -75,6 +76,8 @@ nav li{
 }
 
 .locations {
+    /* third section containing locations. */
+
     width: 1200px;
     height: 500px;
     margin: auto;
@@ -85,13 +88,13 @@ nav li{
     display: flex;
     flex-wrap: wrap;
     /* since height of section with heading isn't fixed, 
-    this squashes the two sections together in the middle! unexpected solution. */
+    this squashes the two sections together in the middle!  */
     align-content: center;
 }
 
 .locations > section {
-    /* contains heading - locations */
-    width: 1200px;
+    /* contains heading - 'locations' */
+    width: 100%;
     background-color: transparent;
 }
 
