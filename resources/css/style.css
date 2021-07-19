@@ -154,3 +154,8 @@ nav li{
 
 }
 
+.copyright {
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
