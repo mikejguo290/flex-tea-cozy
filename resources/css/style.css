@@ -32,10 +32,21 @@ body {
 
 header {
     height: 69px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid seashell;
+
+    position:fixed; 
+    top: 0; /* fixes position of the header to the top. top: 0 is required! */
+    z-index: 1; /* show nav bar over rest of content, set z-index to higher value than main */
+
+}
+
+main {
+    margin-top:69px; /* offset main section down by same amount as height of the fixed header! */
+    z-index:0;
 }
 
 header img {
