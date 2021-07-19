@@ -86,10 +86,9 @@ nav li{
     background-size: cover;
 
     display: flex;
-    flex-wrap: wrap;
-    /* since height of section with heading isn't fixed, 
-    this squashes the two sections together in the middle!  */
-    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+
 }
 
 .locations > section {
