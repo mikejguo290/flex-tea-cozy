@@ -49,6 +49,11 @@ main {
     z-index:0;
 }
 
+footer {
+    
+    z-index:0;
+}
+
 header img {
     height: 50px;
     margin-left: 10px;
@@ -169,7 +174,12 @@ nav li{
 }
 
 .copyright {
-    float: left;
+    /* float: left;  float div meant the div was removed from flow of page and other elements allowed to wrap around it. in practice. div didn't cover whole width and 
+    left some inexplicable spaces around the div for almost the entire width*/
     margin-left: 20px;
     margin-bottom: 30px;
+}
+
+.copyright p{
+    text-align:left;
 }
