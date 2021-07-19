@@ -130,6 +130,7 @@ nav li{
     align-items: flex-start;
     background-color: transparent;
     margin-top:15px;
+    opacity: 1; /* set both container and child divs opacity to 1 to make opacity rendered equal to 1. */
 }
 
 .address {
