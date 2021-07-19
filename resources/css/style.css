@@ -7,8 +7,24 @@
     border: 1px solid red;
     margin: 0;
     opacity:0.9;
-    
-    
+    vertical-align: baseline;
+
+}
+
+h2 {
+    margin: 10px 0px;
+}
+
+h3 {
+    margin: 8px 0px;
+}
+
+h4 {
+    margin: 5px 0px;
+}
+
+h5 {
+    margin: 3px 0px;
 }
 body {
     font-size: 22px;
@@ -49,6 +65,9 @@ nav li{
 
 .jumbotron aside {
     width:1200px;
+    display: flex;
+    flex-direction: column; /* vertical margins of children elements are no longer collapsed! */
+    justify-content: space-between;
 }
 
 .products {
@@ -91,13 +110,10 @@ nav li{
 
 }
 
-.locations > section {
-    /* contains heading - 'locations' */
-    width: 100%;
-    background-color: transparent;
-}
+
 
 .locations h2 {
+    width: 100%;
     background-color: transparent;
 }
 
@@ -107,6 +123,7 @@ nav li{
     justify-content: center;
     align-items: flex-start;
     background-color: transparent;
+    margin-top:15px;
 }
 
 .address {
@@ -118,7 +135,7 @@ nav li{
     height: 300px;
     opacity: 1;
 
-    margin: 15px 20px;
+    margin: 0px 20px;
 }
 
 .contact-info{
@@ -129,3 +146,4 @@ nav li{
     justify-content:flex-start;
 
 }
+
