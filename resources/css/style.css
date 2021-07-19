@@ -74,7 +74,12 @@ nav li{
     /* second section containing teas. */
     width: 1000px;
     margin: 20px auto;
-    
+}
+
+.products .products-headers {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .teas {
@@ -115,6 +120,7 @@ nav li{
 .locations h2 {
     width: 100%;
     background-color: transparent;
+    margin-bottom: 0px;
 }
 
 .locations .addresses {
