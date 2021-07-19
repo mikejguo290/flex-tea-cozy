@@ -102,9 +102,10 @@ nav li{
 }
 
 .locations .addresses {
+    /* its display is set to flex so its address containers can flex THEIR headings and paragraphs. */
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     background-color: transparent;
 }
 
